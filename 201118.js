@@ -1,4 +1,4 @@
-let amount = 200000;
+let amount = 300000;
 
 function netIncome(amount) {
     let income;
@@ -38,3 +38,5 @@ function netIncome(amount) {
         return income;
     }
 }
+
+console.log(netIncome(amount));
